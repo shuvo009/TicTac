@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/ImgButton00"
+            android:layout_width="98dp"
+            android:layout_height="86dp" />
+        <ImageButton
+            android:id="@+id/ImgButton10"
+            android:layout_width="98dp"
+            android:layout_height="86dp" />
+        <ImageButton
+            android:id="@+id/ImgButton20"
+            android:layout_width="98dp"
+            android:layout_height="86dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/ImgButton01"
+            android:layout_width="98dp"
+            android:layout_height="86dp" />
+        <ImageButton
+            android:id="@+id/ImgButton11"
+            android:layout_width="98dp"
+            android:layout_height="86dp" />
+        <ImageButton
+            android:id="@+id/ImgButton21"
+            android:layout_width="98dp"
+            android:layout_height="86dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/ImgButton02"
+            android:layout_width="98dp"
+            android:layout_height="86dp" />
+        <ImageButton
+            android:id="@+id/ImgButton12"
+            android:layout_width="98dp"
+            android:layout_height="86dp" />
+        <ImageButton
+            android:id="@+id/ImgButton22"
+            android:layout_width="98dp"
+            android:layout_height="86dp" />
+    </LinearLayout>
+</LinearLayout>
